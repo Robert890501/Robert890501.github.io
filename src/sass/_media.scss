@@ -73,18 +73,19 @@
             margin-top: 40px;
         }
     }
+    .title {
+        font-size: 25px;
+    }
+
     .benefit {
         padding-top: 25px;
-        &__header {
-            font-size: 25px;
-        }
         &__cards {
             display: flex;
             justify-content: center;
             margin-top: 27px;
             flex-wrap: wrap; 
         }
-
+    }
 }
 
 @media (max-width: 575px) {
@@ -142,11 +143,14 @@
             margin-top: 30px;
         }
     }
+
+    .title {
+        font-size: 18px;
+    }
+    
     .benefit {
         padding: 15px 0 25px 0;
-        &__header {
-            font-size: 18px;
-        }
+       
         &__cards {
             margin-top: 15px;
         }
@@ -163,5 +167,4 @@
         }
     }
 
-}
 }

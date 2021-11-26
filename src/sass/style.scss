@@ -3,9 +3,12 @@
     font-family: 'Museo Sans', sans-serif;
 }
 .conteiner {
+    max-width: 940px;
     margin: 0 auto;
-    width: 950px;
+    padding: 0 100px 0 100px;
 }
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/benefit';
+@import 'media';

@@ -1,0 +1,167 @@
+@media (max-width: 1200px) {
+    .promo {
+        background-position-x: inherit;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .conteiner {
+            padding: 0 75px 0 75px;
+        }
+    .benefit {
+        &__card {
+            p {
+                font-size: 12px;}
+            }
+        }
+}   
+
+
+@media (max-width: 767px) {
+    .conteiner {
+            padding: 0 25px 0 25px;
+        }
+    .promo {
+        background-position-x: left;
+        padding-bottom: 50px;
+        min-height: 500px;
+        &__wapper {
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 360px;
+            margin-top: 42px;
+        }
+        &__icon {
+            font-size: 13px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .header {
+        &__logo {
+        width: 150px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .button {
+        &_header {
+            font-size: 10px;
+            width: 125px;
+            height: 27px;
+        }
+        &_main {
+            width: 220px;
+            height: 39px;
+            font-size: 12px;
+            margin-top: 40px;
+        }
+    }
+    .benefit {
+        padding-top: 25px;
+        &__header {
+            font-size: 25px;
+        }
+        &__cards {
+            display: flex;
+            justify-content: center;
+            margin-top: 27px;
+            flex-wrap: wrap; 
+        }
+
+}
+
+@media (max-width: 575px) {
+    .conteiner {
+            padding: 0 10px 0 10px;
+        }
+    .promo {
+        padding-bottom: 25px;
+        min-height: 450px;
+        &__wapper {
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 18px;
+        }
+        &__subheader {
+            font-size: 13px;
+            margin-top: 0;
+        }
+        &__icons {
+            width: 230px;
+            margin-top: 25px;
+        }
+        &__icon {
+            font-size: 10px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .header {
+        &__logo {
+        width: 150px;
+        }
+        &__official {
+            font-size: 8px;
+            span {
+                font-size: 10px;
+            }
+        }
+        &__phone {
+            font-size: 10px;
+        }
+    }
+    .button {
+        &_header {
+            font-size: 8px;
+            width: 90px;
+            height: 20px;
+        }
+        &_main {
+            width: 170px;
+            height: 30px;
+            font-size: 10px;
+            margin-top: 30px;
+        }
+    }
+    .benefit {
+        padding: 15px 0 25px 0;
+        &__header {
+            font-size: 18px;
+        }
+        &__cards {
+            margin-top: 15px;
+        }
+        &__card {
+            margin-top: 15px;
+            h3 {
+                margin-top: 15px;
+                font-size: 15px;
+            }
+            p {
+                font-size: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
+}

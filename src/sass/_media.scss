@@ -2,6 +2,11 @@
     .promo {
         background-position-x: inherit;
     }
+    .consultation {
+        min-height: 580px;
+        padding: 50px 0 58px 0;
+        background-size: 100% 100%;
+    }
 }
 
 
@@ -12,9 +17,36 @@
     .benefit {
         &__card {
             p {
-                font-size: 12px;}
+                font-size: 12px;
             }
         }
+    }
+    .button {
+        &_submit {
+            height: 46px;
+            font-size: 14px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 27px;
+        }
+    }
+    .consultation {
+        min-height: 534px;
+        padding: 40px 0 48px 0;
+        background-size: 100% 100%;
+        &__descr {
+            font-size: 16px;
+        }   
+    }
+    .feed-form {
+        width: 270px;
+        input {
+            height: 46px;
+        }
+    }
+    
 }   
 
 
@@ -72,9 +104,14 @@
             font-size: 12px;
             margin-top: 40px;
         }
+        &_submit {
+            height: 35px;
+            font-size: 12px;
+        }
     }
     .title {
-        font-size: 25px;
+        font-size: 22px;
+        line-height: 30px;
     }
 
     .benefit {
@@ -86,6 +123,21 @@
             flex-wrap: wrap; 
         }
     }
+    .consultation {
+        min-height: 422px;
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
+        }   
+    }
+    .feed-form {
+        width: 220px;
+        input {
+            height: 35px;
+            font-size: 12px;
+        }
+    }
+    
 }
 
 @media (max-width: 575px) {
@@ -142,28 +194,52 @@
             font-size: 10px;
             margin-top: 30px;
         }
+        &_submit {
+            height: 25px;
+            font-size: 10px;
+        }
     }
 
     .title {
         font-size: 18px;
+        &_left {
+            font-size: 13px;
+            line-height: 20px;
+        }
     }
     
     .benefit {
         padding: 15px 0 25px 0;
        
         &__cards {
-            margin-top: 15px;
+            margin-top: 0px;
         }
         &__card {
-            margin-top: 15px;
+            margin-top: 10px;
             h3 {
-                margin-top: 15px;
+                margin-top: 0;
                 font-size: 15px;
             }
             p {
-                font-size: 10px;
-                margin-top: 10px;
+                font-size: 12px;
+                margin-top: 0;
             }
+        }
+    }
+    .consultation {
+        min-height: 279px;
+        padding: 15px 0 18px 0;
+        &__descr {
+            font-size: 12px;
+            line-height: 14px;
+        }   
+    }
+    .feed-form {
+        width: 180px;
+        margin-top: 20px;
+        input {
+            height: 25px;
+            font-size: 10px;
         }
     }
 

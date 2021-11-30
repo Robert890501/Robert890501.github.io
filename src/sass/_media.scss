@@ -137,6 +137,12 @@
             font-size: 12px;
         }
     }
+    .carousel {
+        padding: 40px 0;
+        .prev, .next {
+            display: none;
+        }
+    }
     
 }
 

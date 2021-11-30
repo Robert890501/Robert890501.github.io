@@ -1,8 +1,8 @@
 .carousel {
     padding: 80px 0;
+    width: 75%;
+    margin: 0 auto;
     &__inner {
-        width: 85%;
-        margin: 0 auto;
         img{
             width: 100%;
         }
@@ -29,4 +29,23 @@
             margin: 0 auto;
         }
     }
+    .tns-nav {
+        text-align: center;
+        .tns-nav-active {
+            background-color: $main-color;
+            border: none;
+            height: 13px;
+            box-shadow: 0 0 10px $main-color;
+            transition: 1s;
+        }
+        button {
+            height: 16px;
+            border: 1px ridge rgba(255, 110, 110, 0.6);
+            border-radius: 50%;
+            margin: 0 1px;
+            background-color: rgba($color: #ffd7d7, $alpha: 8.0);
+        }
+    }
 }
+
+    

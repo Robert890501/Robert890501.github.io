@@ -26,7 +26,7 @@
     controls: false,
     responsive: {
       768: {
-        nav: false,
+        nav: false
       }
     }
   });

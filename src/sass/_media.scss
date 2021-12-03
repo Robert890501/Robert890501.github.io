@@ -7,6 +7,21 @@
         padding: 50px 0 58px 0;
         background-size: 100% 100%;
     }
+    .catalog {
+        &-item {
+            width: 254px;
+            &__price {
+                font-size: 15px;
+            }
+            &__old-price {
+                font-size: 12px;
+            }
+        }
+    }
+    .button {
+        &_mini {
+            width: 110px;
+        }
 }
 
 
@@ -26,6 +41,11 @@
             height: 46px;
             font-size: 14px;
         }
+        &_mini {
+            width: 93px;
+            height: 34px;
+            font-size: 13px;
+        }
     }
     .title {
         &_left {
@@ -44,6 +64,42 @@
         width: 270px;
         input {
             height: 46px;
+        }
+    }
+
+    .carousel { 
+        .tns-nav { 
+            button {
+                margin: 0 10px;
+            }        
+        }
+    }
+
+    .catalog {
+        &__tab {
+            font-size: 16px;
+            width: 180px;
+            height: 45px;
+            line-height: 42px;
+        }
+    }   
+
+    .catalog-item {
+        width: 229px;
+        &__img {
+            height: 180px;
+        }
+        &__list li {
+            font-size: 11px;
+        }
+       /*  &__content {
+            transform: translateX(-110%);
+        } */
+        &__content {
+            transform: translateX(-110%);
+            &_active{
+                transform: translateX(0%);
+            }
         }
     }
     
@@ -109,6 +165,7 @@
             font-size: 12px;
         }
     }
+}
     .title {
         font-size: 22px;
         line-height: 30px;
@@ -143,8 +200,29 @@
             display: none;
         }
     }
-    
-}
+
+    .reviews {
+        &-client {
+            display: block;
+            &__img {
+                height: 100px;
+                width: 100px;
+                float: left;
+                margin: 0 15px 5px 0 ;
+            }
+            &__content {
+                margin-left: 15px;
+            }
+            &__descr {
+                margin-top: 5px;
+                p {
+                    margin-top: 5px;
+                }
+            }
+        }  
+    }
+}    
+
 
 @media (max-width: 575px) {
     .conteiner {
@@ -248,5 +326,38 @@
             font-size: 10px;
         }
     }
-
+    .catalog {
+        padding-bottom: 50px;
+        &__tab {
+            font-size: 9px;
+            width: 89px;
+            height: 25px;
+            line-height: 25px;
+        }
+        &__content {
+            margin-top: 23px;
+        }
+    }
+    .reviews {
+        &-client {
+            display: block;
+            margin-top: 25px;
+            &__img {
+                height: 100px;
+                width: 100px;
+                float: left;
+                margin: 0 15px 5px 0 ;
+            }
+            &__content {
+                margin-left: 15px;
+            }
+            &__descr {
+                margin-top: 5px;
+                p {
+                    margin-top: 5px;
+                }
+            }
+        }  
+    }
+       
 }

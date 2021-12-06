@@ -61,5 +61,10 @@
       }
       toggleSlede ('.catalog-item__link');
       toggleSlede ('.catalog-item__back');
+
+      //Modal
+      $('[data-modal=consultation]').on('click', function () {
+        $('.overlay, #consultation').fadeIn('slow');
+      });
   });
   })(jQuery);

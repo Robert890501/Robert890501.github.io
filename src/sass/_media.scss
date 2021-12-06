@@ -102,6 +102,35 @@
             }
         }
     }
+    .footer {
+        height: 495px;
+        &__info {
+            width: 340px;
+            height: 200px;
+            padding: 48px 40px 27px 40px;
+        }
+        &__adr {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        &__phone {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        &__network {
+            margin-top: 12px;
+            &-item {
+                height: 45px;
+                width: 45px;
+                img {
+                    height: 25px;
+                }
+            }
+        }
+        .gm-style {
+            top: 10px;
+        }   
+    }
     
 }   
 
@@ -220,6 +249,9 @@
                 }
             }
         }  
+    }
+    .footer {
+        height: 390px;
     }
 }    
 
@@ -358,6 +390,12 @@
                 }
             }
         }  
+    }
+    .footer {
+        height: 200px;
+        iframe {
+            display: none;
+        }
     }
        
 }

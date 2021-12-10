@@ -47,7 +47,15 @@
     &_mini {
         min-height: 145px;
     }
+    input.error {
+        border: 1px solid red;
+    }
+    label.error {
+        margin-bottom: 7px;
+    }
+    
 }
+
 
 #consultation, #order, #thanks {
     display: none;

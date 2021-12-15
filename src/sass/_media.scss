@@ -70,12 +70,16 @@
     }
 
     .carousel { 
+        .prev, .next {
+            display: none;
+        }
         .tns-nav { 
             button {
                 margin: 0 10px;
             }        
         }
     }
+    
 
     .catalog {
         &__tab {
@@ -203,7 +207,6 @@
             font-size: 12px;
         }
     }
-}
     .title {
         font-size: 22px;
         line-height: 30px;
@@ -260,7 +263,8 @@
         }
     .footer {
         height: 390px;
-    }    
+        }    
+    }
 }
     
 
